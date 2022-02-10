@@ -1,0 +1,77 @@
+/* PLAYER COMPONENT */
+.player {
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+}
+
+.duration-container {
+    width: 100%;
+    position: absolute;
+    bottom: 122px;
+    right: 2px;
+}
+
+.progress-bar {
+    -moz-appearance: none;
+    width: 100%;
+    background-color: rgb(0, 124, 124);
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgb(24, 24, 24);
+    color: rgb(151, 151, 151);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.c-track-container {
+    display: flex;
+    align-items: center;
+}
+
+.c-track-container button {
+    margin-left: 5px;
+}
+
+.track-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-name {
+    font-weight: bold;
+}
+
+.player-img {
+    width: 128px;
+    height: 128px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.duration-text {
+    display: flex;
+    justify-content: center;
+}
+
+.right-side {
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    padding-right: 10px;
+}
